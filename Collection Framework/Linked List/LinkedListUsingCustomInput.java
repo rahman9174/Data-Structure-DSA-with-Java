@@ -25,6 +25,7 @@ class LinkedListUsingCustomInput{
         System.out.println(" The linked list is shown in below : ");
         while(head != null){
             System.out.print(head.x+" ");
+            head = head.next;
         }
 
     }
